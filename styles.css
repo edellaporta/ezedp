@@ -3,13 +3,16 @@ body{
 }
 
 .container{
-    background-image:url("/img/pexels-pixabay-270557.jpg");
     display:flex;
     height: 400px;
-    color: whitesmoke;
     font-size: 21px;
     margin:-10px;
     
+}
+
+.container.img{
+    background-image:url("../img/pexels-pixabay-270557.jpg");
+    color: whitesmoke;
 }
 
 .container .title{
@@ -21,6 +24,39 @@ body{
 
 .container > div{
     align-self: center;
-    padding: 25px;;
+    padding: 25px;
     align-self: flex-start;
+}
+
+.container .foto{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: -4%;
+
+}
+
+.container .foto > img{
+    width:300px;
+    height:300px;
+    border-radius: 150px;
+    margin-right: 10%;
+}
+
+.container .about{
+    font-size: 16px;
+    flex: 1 1 14%;
+    display: flex;
+    align-self: center;
+    justify-content: left;
+}
+
+.container .about > p{
+    padding: 50px;
+    line-height:32px;
+    padding-right: 33%;
+    
+
 }
