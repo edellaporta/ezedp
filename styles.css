@@ -1,0 +1,26 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-image:url("/img/pexels-pixabay-270557.jpg");
+    display:flex;
+    height: 400px;
+    color: whitesmoke;
+    font-size: 21px;
+    margin:-10px;
+    
+}
+
+.container .title{
+    flex: 1;
+    align-self: center;
+    padding: 25px;
+    align-self: flex-start;
+}
+
+.container > div{
+    align-self: center;
+    padding: 25px;;
+    align-self: flex-start;
+}
